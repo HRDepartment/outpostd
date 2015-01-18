@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+
+cookies.txt
+outpost*.json
+outpost*.txt

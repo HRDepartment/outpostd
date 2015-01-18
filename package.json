@@ -1,0 +1,27 @@
+{
+  "name": "outpostd",
+  "version": "0.1.0",
+  "description": "",
+  "main": "outpostd.js",
+  "keywords": [
+    "teamfortress",
+    "tf",
+    "tf2",
+    "steam",
+    "outpost",
+    "tf2outpost",
+    "daemon"
+  ],
+  "author": "cares",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.51.0",
+    "optimist": "^0.6.1",
+    "log": "^1.4.0",
+    "prompt": "^0.2.14",
+    "js-striphtml": "^1.1.2",
+    "chalk": "^0.5.1",
+    "he": "^0.5.0"
+  }
+}
