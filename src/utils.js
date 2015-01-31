@@ -84,6 +84,9 @@ function makeRequest(opts, fn) {
     }
 
     opts.jar = cookiejar;
+    opts.headers = opts.headers || {};
+    // necessary for whatever retarded reason
+    opts.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36';
     request(opts, fn);
 }
 
